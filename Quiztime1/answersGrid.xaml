@@ -1,0 +1,43 @@
+﻿<Window x:Class="Quiztime1.answersGrid"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiztime1"
+        mc:Ignorable="d"
+        Title="answersGrid" Height="493.5" Width="818">
+    <Grid Height="700" Width="800" Background="#0c83b9">
+        <Grid HorizontalAlignment="Left" Height="585" VerticalAlignment="Top" Width="778" Margin="10,0,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="207*"/>
+                <ColumnDefinition Width="428*"/>
+            </Grid.ColumnDefinitions>
+            <DataGrid Name="dgAnswers" AutoGenerateColumns="False" 
+                                         HorizontalAlignment="Left" 
+                                         HorizontalScrollBarVisibility="Disabled" 
+                                         Margin="0,69,0,193" 
+                                         Width="778" 
+                                         ItemsSource="{Binding Path=LoadDataBinding}" 
+                                         CanUserResizeRows="False"
+                                         CanUserAddRows="False" Grid.ColumnSpan="2">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=ID}" Header="ID" Width="25" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=Antwoord}" Header="Antwoord" Width="100" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=Getal}" Header="Getal" Width="100" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=Correct}" Header="Correct" Width="100" IsReadOnly="True" />
+                    <DataGridTextColumn Binding="{Binding Path=tblvragen_id}" Header="tblvragen_id" Width="100" IsReadOnly="True" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <Button Name="btnEdit" Content="Edit" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="359,397,0,0"/>
+            <Button Name="btnAdd" Content="Toevoegen" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="75" Grid.Column="1" Margin="439,397,0,0"/>
+            <Button Name="btnBack" Content="Terug" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="75" Margin="0,397,0,0"/>
+
+        </Grid>
+
+        <Label Name="lblQuiz" Content="" FontSize="12pt" HorizontalAlignment="Left" Margin="11,5,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblAntwoord" Content="" FontSize="9pt" HorizontalAlignment="Left" Margin="204,8,0,0" VerticalAlignment="Top"/>
+        <Label Content="Antwoorden" FontSize="14pt" FontWeight="bold" HorizontalAlignment="Left" Margin="11,27,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

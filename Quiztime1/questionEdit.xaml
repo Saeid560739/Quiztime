@@ -1,0 +1,38 @@
+﻿<Window x:Class="Quiztime1.questionEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiztime1"
+        mc:Ignorable="d"
+      Title="questionEdit" Height="450" Width="800">
+    <Grid Background="#0c83b9">
+        <Label Content="Vraag:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="107,114,0,0" VerticalAlignment="Top"/>
+        <Label Content="Afbeelding:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="80,145,0,0" VerticalAlignment="Top"/>
+
+
+        <TextBox Name="txbVraag" HorizontalAlignment="Left" Height="23" Margin="155,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390"/>
+        <TextBox Name="txbAfbeelding" HorizontalAlignment="Left" Height="72" Margin="155,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390"/>
+
+
+        <Button Name="btnUpdateImage" Content="Update afbeelding" HorizontalAlignment="Left" Margin="435,200,0,0" VerticalAlignment="Top" Width="110"/>
+        <Button Name="btnCancel" Content="Terug" HorizontalAlignment="Left" Margin="688,374,0,0" VerticalAlignment="Top" Width="75"/>
+
+
+        <Button Name="btnSelectImage" Content="Upload afbeelding" HorizontalAlignment="Left" Margin="435,151,0,0" VerticalAlignment="Top" RenderTransformOrigin="9.45,-10.258" Width="110"/>
+        <Image Name="imgQuestion" HorizontalAlignment="Left" Height="157" Margin="155,145,0,0" VerticalAlignment="Top" Width="219" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0"/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Content="Vraag wijzigen" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="155,54,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblImageStatus" Content="" HorizontalAlignment="Left" Margin="566,197,0,0" VerticalAlignment="Top"/>
+        <Button Name="btnUpdateVraag" Content="Update vraag" HorizontalAlignment="Left" Height="23" Margin="566,115,0,0" VerticalAlignment="Top" Width="78"/>
+        <Label Name="lblVraagStatus" Content="" HorizontalAlignment="Left" Margin="663,112,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

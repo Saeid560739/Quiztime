@@ -1,0 +1,31 @@
+﻿<Window x:Class="Quiztime1.answerAdd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiztime1"
+        mc:Ignorable="d"
+        Title="answerAdd" Height="450" Width="800">
+    <Grid Background="#0c83b9">
+        <Label Content="Vraag A:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="124,154,0,0" VerticalAlignment="Top"  Height="29"/>
+        <Label Content="Vraag B:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="124,182,0,0" VerticalAlignment="Top"  Height="29"/>
+        <Label Content="Vraag C:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="124,210,0,0" VerticalAlignment="Top"  Height="29"/>
+        <Label Content="Vraag D:" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="124,239,0,0" VerticalAlignment="Top"  Height="29"/>
+
+        <TextBox Name="txbA" HorizontalAlignment="Left" Height="23" Margin="184,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390"/>
+        <TextBox Name="txbB" HorizontalAlignment="Left" Height="23" Margin="184,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390"/>
+        <TextBox Name="txbC" HorizontalAlignment="Left" Height="23" Margin="184,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390"/>
+        <TextBox Name="txbD" HorizontalAlignment="Left" Height="23" Margin="184,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390"/>
+
+        <RadioButton x:Name="rbA" Content="A" HorizontalAlignment="Left" Margin="594,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbB" Content="B" HorizontalAlignment="Left" Margin="594,189,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbC" Content="C" HorizontalAlignment="Left" Margin="594,217,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbD" Content="D" HorizontalAlignment="Left" Margin="594,245,0,0" VerticalAlignment="Top"/>
+
+        <Button Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="546,379,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.158,0.49"/>
+        <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" Margin="654,379,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label Content="Antwoorden" FontSize="30" FontWeight="Bold" HorizontalAlignment="Left" Margin="124,77,0,0" VerticalAlignment="Top"/>
+        <Label Name="lblQuestion" Content="" FontSize="20" HorizontalAlignment="Left" Margin="124,35,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

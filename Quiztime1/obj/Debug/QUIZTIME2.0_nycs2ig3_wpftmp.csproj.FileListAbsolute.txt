@@ -1,0 +1,6 @@
+C:\Users\Saeid Alebraheem\Downloads\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0_nycs2ig3_wpftmp.csproj.AssemblyReference.cache
+C:\Users\Saeid Alebraheem\Downloads\QUIZTIME2.0-master\obj\Debug\QUIZTIME2._0.Properties.Resources.resources
+C:\Users\Saeid Alebraheem\Downloads\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0_nycs2ig3_wpftmp.csproj.GenerateResource.cache
+C:\Users\Saeid Alebraheem\Downloads\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0_nycs2ig3_wpftmp.csproj.CoreCompileInputs.cache
+C:\Users\Saeid Alebraheem\Downloads\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0.exe
+C:\Users\Saeid Alebraheem\Downloads\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0.pdb

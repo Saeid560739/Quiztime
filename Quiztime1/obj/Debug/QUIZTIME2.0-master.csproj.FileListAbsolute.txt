@@ -1,0 +1,5 @@
+C:\Users\Saeid Alebraheem\source\repos\QUIZTIME2.0-master\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0-master.csproj.AssemblyReference.cache
+C:\Users\Saeid Alebraheem\source\repos\QUIZTIME2.0-master\QUIZTIME2.0-master\obj\Debug\MainWindow.g.cs
+C:\Users\Saeid Alebraheem\source\repos\QUIZTIME2.0-master\QUIZTIME2.0-master\obj\Debug\App.g.cs
+C:\Users\Saeid Alebraheem\source\repos\QUIZTIME2.0-master\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0-master_MarkupCompile.cache
+C:\Users\Saeid Alebraheem\source\repos\QUIZTIME2.0-master\QUIZTIME2.0-master\obj\Debug\QUIZTIME2.0-master_MarkupCompile.lref
